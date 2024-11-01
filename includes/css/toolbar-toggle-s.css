@@ -1,0 +1,22 @@
+/* Toolbar Toggle */
+
+/* On status */
+#wp-admin-bar-toolbar-switch.on {
+    background-color: red;
+    color: white;
+}
+/* Off status */
+#wp-admin-bar-toolbar-switch.off {
+    background-color: green;
+    color: white;
+}
+
+
+.toolbar-toggle-button {
+	position: fixed;
+    top: 1%;
+    right: 1%;
+    border: 5px solid;
+    padding: 5px;
+    z-index: 9999999;
+}
